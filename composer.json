@@ -20,5 +20,15 @@
         "psr-4": {
             "Toogleliu\\Weixin\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Toogleliu\\Weixin\\WeixinServiceProvider"
+            ],
+            "aliases": {
+                "Weixin": "Toogleliu\\Weixin\\Weixin"
+            }
+        }
     }
 }
