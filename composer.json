@@ -1,0 +1,21 @@
+{
+    "name": "toogleliu/weixin",
+    "description": "laravel weixin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toogleliu",
+            "email": "Toogleliu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Toogleliu\\Weixin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Toogleliu\\Weixin\\Tests\\": "tests/"
+        }
+    }
+}
