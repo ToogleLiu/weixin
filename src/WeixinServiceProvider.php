@@ -17,6 +17,6 @@ class WeixinServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config/weixin.php' => config_path('weixin.php'),
-        ]);
+        ], 'weixin-config');
     }
 }
